@@ -1,0 +1,13 @@
+.toast_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .toast{
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
+  }
+}

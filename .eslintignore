@@ -1,0 +1,8 @@
+/node_modules
+/postcss.config.js
+/webpack.dev.config.js
+/webpack.config.base.js
+/webpack.prod.config.js
+/proxy.js
+/src/index.html
+/static

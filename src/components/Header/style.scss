@@ -1,0 +1,23 @@
+.container {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+
+  a {
+    margin-right: 10px;
+    transition: all .3s;
+  }
+
+  a:hover {
+    color: #0971ff;
+    text-decoration: underline;
+  }
+
+  a:last-child {
+    margin: 0;
+  }
+
+  a.active {
+    color: #0971ff;
+  }
+}

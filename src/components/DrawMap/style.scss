@@ -1,0 +1,8 @@
+:global(.nodes circle) {
+  transition: opacity .1s;
+  cursor: pointer;
+}
+
+:global(.lines line) {
+  transition: opacity .1s;
+}

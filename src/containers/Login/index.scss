@@ -1,0 +1,178 @@
+.login_container{
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../static/images/bg.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .login_context_box{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title_box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title_logo{
+        width: 60px;
+        height: 60px;
+        background: url('../../static/images/favicon.png') no-repeat;
+        background-size: 100% 100%;
+      }
+      .title_text{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 800;
+      }
+    }
+    .form_box{
+      width: 460px;
+      background-color: #fff;
+      margin-top: 24px;
+      border-radius: 6px;
+      border: 5px solid #797f8e;
+      .form_title{
+        width: 100%;
+        height: 59px;
+        border-bottom: 1px solid #297acc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #297acc;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      .login_box{
+        padding: 30px;
+        box-sizing: border-box;
+        .input{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid #ccc;
+          input{
+            width: 100%;
+            height: 30px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            border: none;
+            font-size: 15px;
+          }
+          .icon_close{
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+          }
+          .icon_check{
+            width: 23px;
+            height: 23px;
+            margin-left: 6px;
+            cursor: pointer;
+            &:hover{
+              fill: #297acc;
+            }
+          }
+        }
+        .error_box{
+          color: #f72828;
+          font-size: 13px;
+        }
+        .password_box{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 15px;
+          .remember_box{
+            font-size: 14px;
+            color: #999;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            span{
+              display: inline-block;
+              margin-left: 6px;
+            }
+            input{
+              -webkit-appearance: none;
+              width: 16px!important;
+              height: 16px!important;
+              display: inline-block;
+              cursor: pointer;
+              border: 1px solid #999;
+              border-radius: 2px;
+              &:checked{
+                background: url('../../static/images/checkout.png') no-repeat;
+                background-size: 100%;
+              }
+            }
+          }
+          .forget{
+            font-size: 14px;
+            color: #ccc;
+            cursor: pointer;
+            &:hover {
+              color: #297acc;
+            }
+          }
+        }
+        .button{
+          width: 100%;
+          background-color: #297acc;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 800;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 2px;
+          margin-top: 16px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .buttom_box{
+    margin-top: 200px;
+    .buttom_link{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .link{
+        font-size: 14px;
+      }
+      .line{
+        width: 2px;
+        height: 15px;
+        background-color: #fff;
+        margin: 0 18px;
+      }
+    }
+    .copyright{
+      text-align: center;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    .record{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      img{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+}
